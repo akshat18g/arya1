@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <title>NexusTech | App Development Experts</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="preloader">
+    <div class="loader">
+      <svg viewBox="0 0 80 80">
+        <circle id="loader-circle" cx="40" cy="40" r="32"></circle>
+      </svg>
+      <div class="loader-text">LOADING</div>
+    </div>
+  </div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <span>Nexus</span>Tech
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div id="particles-js"></div>
+      <div class="hero-content">
+        <h1 class="glitch" data-text="We Build The Future">We Build The Future</h1>
+        <p class="subtitle">Transforming ideas into exceptional digital experiences</p>
+        <div class="cta-buttons">
+          <a href="#portfolio" class="btn btn-primary">Our Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>Comprehensive app development solutions tailored to your needs</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card" data-aos="fade-up">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Mobile Development</h3>
+            <p>Native and cross-platform apps for iOS and Android with cutting-edge features and seamless performance.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3>Web Applications</h3>
+            <p>Responsive, progressive web apps that deliver exceptional user experiences across all devices and platforms.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3>Custom Solutions</h3>
+            <p>Bespoke software development tailored to your specific business requirements and technical specifications.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>User-centered design that combines aesthetics with functionality to create intuitive and engaging interfaces.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <h3>Cloud Integration</h3>
+            <p>Seamless cloud solutions that enhance scalability, security, and accessibility of your applications.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Analytics & Optimization</h3>
+            <p>Data-driven insights and performance optimization to maximize your app's effectiveness and user engagement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured-apps" class="featured-apps">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Apps</h2>
+          <p>Our latest and greatest digital creations</p>
+        </div>
+        <div class="app-showcase">
+          <div class="app-card">
+            <div class="app-preview">
+              <img src="https://via.placeholder.com/600x1200/1a1a2e/ffffff?text=App+1" alt="Featured App 1" loading="lazy">
+              <div class="app-overlay">
+                <div class="app-details">
+                  <h3>HealthSync Pro</h3>
+                  <p>Health & Fitness Tracking Platform</p>
+                  <a href="#" class="btn btn-small">View Case Study</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="app-card">
+            <div class="app-preview">
+              <img src="https://via.placeholder.com/600x1200/1a1a2e/ffffff?text=App+2" alt="Featured App 2" loading="lazy">
+              <div class="app-overlay">
+                <div class="app-details">
+                  <h3>FinTrack</h3>
+                  <p>Personal Finance Management</p>
+                  <a href="#" class="btn btn-small">View Case Study</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="app-card">
+            <div class="app-preview">
+              <img src="https://via.placeholder.com/600x1200/1a1a2e/ffffff?text=App+3" alt="Featured App 3" loading="lazy">
+              <div class="app-overlay">
+                <div class="app-details">
+                  <h3>EcoRoute</h3>
+                  <p>Sustainable Transportation Solution</p>
+                  <a href="#" class="btn btn-small">View Case Study</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Portfolio</h2>
+          <p>Explore our diverse range of successful projects</p>
+        </div>
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="design">UI/UX</button>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="mobile">
+            <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Project+1" alt="Portfolio Item 1" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Fitness Tracker App</h3>
+                <p>Mobile Development</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Project+2" alt="Portfolio Item 2" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>E-Commerce Platform</h3>
+                <p>Web Development</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="design">
+            <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Project+3" alt="Portfolio Item 3" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Banking App UI</h3>
+                <p>UI/UX Design</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="mobile">
+            <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Project+4" alt="Portfolio Item 4" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Food Delivery App</h3>
+                <p>Mobile Development</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Project+5" alt="Portfolio Item 5" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Real Estate Dashboard</h3>
+                <p>Web Development</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="design">
+            <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Project+6" alt="Portfolio Item 6" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Smart Home Control</h3>
+                <p>UI/UX Design</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <div class="container">
+        <div class="section-header">
+          <h2>Meet Our Team</h2>
+          <p>The talented minds behind our exceptional work</p>
+        </div>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="member-card">
+              <div class="member-front">
+                <img src="https://via.placeholder.com/400x400/1a1a2e/ffffff?text=Team+Member" alt="Team Member 1" loading="lazy">
+                <h3>Alex Morgan</h3>
+                <p>Founder & CEO</p>
+              </div>
+              <div class="member-back">
+                <h3>Alex Morgan</h3>
+                <p>15+ years of experience in software development and tech leadership.</p>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="member-card">
+              <div class="member-front">
+                <img src="https://via.placeholder.com/400x400/1a1a2e/ffffff?text=Team+Member" alt="Team Member 2" loading="lazy">
+                <h3>Sarah Chen</h3>
+                <p>Lead Developer</p>
+              </div>
+              <div class="member-back">
+                <h3>Sarah Chen</h3>
+                <p>Full-stack developer with expertise in mobile and web applications.</p>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="member-card">
+              <div class="member-front">
+                <img src="https://via.placeholder.com/400x400/1a1a2e/ffffff?text=Team+Member" alt="Team Member 3" loading="lazy">
+                <h3>David Kim</h3>
+                <p>UX/UI Designer</p>
+              </div>
+              <div class="member-back">
+                <h3>David Kim</h3>
+                <p>Award-winning designer with a passion for creating intuitive user experiences.</p>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="member-card">
+              <div class="member-front">
+                <img src="https://via.placeholder.com/400x400/1a1a2e/ffffff?text=Team+Member" alt="Team Member 4" loading="lazy">
+                <h3>Maya Patel</h3>
+                <p>Mobile Developer</p>
+              </div>
+              <div class="member-back">
+                <h3>Maya Patel</h3>
+                <p>Specialized in native iOS and Android development with a focus on performance.</p>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <p>Let's discuss how we can bring your ideas to life</p>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>123 Tech Avenue, San Francisco, CA 94107</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>hello@nexustech.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+              <label for="name">Your Name</label>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+              <label for="email">Your Email</label>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required>
+              <label for="subject">Subject</label>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" required></textarea>
+              <label for="message">Your Message</label>
+              <span class="error-message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo">
+            <span>Nexus</span>Tech
+          </div>
+          <p>Transforming ideas into exceptional digital experiences since 2015.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#team">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 NexusTech. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
